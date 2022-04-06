@@ -1,1 +1,47 @@
-/* stylelint-disable-next-line no-empty-source */
+.nav-link {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #344563;
+}
+
+.container {
+  background: url(./icons/header-llustration-desktop.png) no-repeat;
+  background-size: contain;
+}
+
+.headline {
+  padding: 160px 0;
+}
+
+.heading {
+  font-family: 'Inter', serif, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  margin: 24px 0;
+  padding: 0;
+}
+
+.black {
+  color: #344563;
+}
+
+.green {
+  color: #277f5a;
+}
+
+.socials li {
+  list-style-type: none;
+  margin: 24px;
+}
+
+.angle-down {
+  order: 3;
+  flex-grow: 0;
+  margin: 58px 0;
+}
