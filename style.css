@@ -15,7 +15,7 @@
   display: none;
 }
 
-.container {
+.container-fluid {
   background: url(./icons/header-llustration-desktop.png) no-repeat;
   background-size: contain;
 }
@@ -63,24 +63,59 @@
   padding: 58px 0;
 }
 
-@media screen and (max-width: 768px) {
-  body {
-    background-color: palegreen;
-  }
+.about-header {
+  background:
+    url(./icons/frame-desktop.png) top right no-repeat,
+    url(./icons/illustration-about-me-2-desktop.png) bottom left no-repeat;
+}
 
-  .port-nav {
-    display: none;
-  }
+.about-header h4 {
+  padding: 5% 29%;
+  font-family: 'Inter', serif, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+}
 
-  .about-nav {
-    display: none;
-  }
+.btn {
+  border: 0;
+  color: #fff;
+}
 
-  .contact-nav {
-    display: none;
-  }
+.btn:hover {
+  border: solid 2px #277f5a;
+}
 
-  #hr {
-    display: none;
-  }
+.btn:active {
+  transform: translateY(4px);
+}
+
+.about-card {
+  background-color: #ebf0ee;
+  height: 360px;
+  margin: 30% 0;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+}
+
+.card-img-top {
+  height: 170px;
+}
+
+.about-card .list-group li {
+  list-style-type: none;
+  font-family: 'Inter', serif, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #257456;
+  border-radius: 4px;
+  padding: 2px 5px;
+  margin: 2px;
+  background-color: #fff;
 }
