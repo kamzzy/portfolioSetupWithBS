@@ -106,7 +106,6 @@
 }
 
 .about-card .list-group li {
-  list-style-type: none;
   font-family: 'Inter', serif, sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -114,8 +113,6 @@
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #257456;
-  border-radius: 4px;
-  padding: 2px 5px;
   margin: 2px;
   background-color: #fff;
 }
