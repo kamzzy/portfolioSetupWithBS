@@ -7,13 +7,21 @@
   color: #344563;
 }
 
+.nav-item .logo {
+  display: none;
+}
+
+.nav-item .bars {
+  display: none;
+}
+
 .container {
   background: url(./icons/header-llustration-desktop.png) no-repeat;
   background-size: contain;
 }
 
 .headline {
-  padding: 160px 0;
+  padding: 13% 0;
 }
 
 .heading {
@@ -35,13 +43,44 @@
   color: #277f5a;
 }
 
+.headline_text {
+  padding: 0 22%;
+  font-family: 'Inter', serif, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #172b4d;
+}
+
 .socials li {
   list-style-type: none;
   margin: 24px;
 }
 
-.angle-down {
-  order: 3;
-  flex-grow: 0;
-  margin: 58px 0;
+.angle-down img {
+  padding: 58px 0;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: palegreen;
+  }
+
+  .port-nav {
+    display: none;
+  }
+
+  .about-nav {
+    display: none;
+  }
+
+  .contact-nav {
+    display: none;
+  }
+
+  #hr {
+    display: none;
+  }
 }
