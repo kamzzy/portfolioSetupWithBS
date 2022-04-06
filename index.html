@@ -47,8 +47,7 @@
         </h3>
 
         <ul
-          class="socials list-group list-group-horizontal justify-content-center"
-        >
+          class="socials list-group list-group-horizontal justify-content-center">
           <li class="">
             <a href="https://twitter.com/precious_akams">
               <img src="icons/twitter.png" alt="twitter_link" />
@@ -217,7 +216,6 @@
           <button class="btn btn-success" type="button">Get My Resume</button>
         </header>
         <div class="row">
-          <!-- <div class="flex-wrapper"> -->
           <div class="col-md-4">
             <div class="card about-card">
                   <img class="card-img-top" src="icons/icon-languages.png" alt="languages image">
@@ -270,43 +268,27 @@
             </div>
           </div>
         </div>
-        <!-- </div> -->
       </section>
 
       <section class="contact-section" id="contact">
-        <div class="flex-wrapper">
+        <div class="row">
+          <div class="col-md-6">
           <header class="contact-header">
             <h2>
               I'm always interested in hearing about new projects, so if you'd
               like to chat please get in touch.
             </h2>
           </header>
-          <div class="contact-form">
+          </div>
+          <div class="contact-form col-md-6">
             <form action="https://formspree.io/f/mvolbpag" method="post">
               <label for="fullname">Fullname:</label>
-              <input
-                type="text"
-                name="fullname"
-                id="fullname"
-                maxlength="30"
-                placeholder="Full name"
-                required
-              />
-              <input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="Email address"
-                required
-              />
-              <textarea
-                name="message"
-                id="textarea"
-                maxlength="500"
-                placeholder="Enter text here"
-                required
-              ></textarea>
-              <button class="contact-btn btn-anime" type="submit">
+              <input type="text" name="fullname" id="fullname" maxlength="30" placeholder="Full name" required/>
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" placeholder="Email address" required/>
+              <label for="fullname">Message:</label>
+               <textarea  name="message"  id="textarea"  maxlength="500" required>Enter text here</textarea>
+              <button class="btn btn-success" type="submit">
                 Get in touch
               </button>
             </form>
@@ -314,7 +296,7 @@
         </div>
       </section>
       <hr id="hr" />
-      <ul class="socials social2">
+      <ul class="socials list-group list-group-horizontal justify-content-center" >
         <li>
           <a href="https://twitter.com/precious_akams">
             <img src="icons/twitter.png" alt="twitter_link" />
@@ -342,10 +324,8 @@
         </li>
       </ul>
 
-      <div class="mailto">
-        <a id="mailto" href="mailto:preciousakams@yahoo.com"
-          >preciousakams@yahoo.com</a
-        >
+      <div class="mailto text-center">
+        <a id="mailto" href="mailto:preciousakams@yahoo.com">preciousakams@yahoo.com</a>
       </div>
     </div>
 

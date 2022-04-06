@@ -116,3 +116,26 @@
   margin: 2px;
   background-color: #fff;
 }
+
+.contact-section {
+  background:
+    url(./icons/frame2.png) no-repeat,
+    url(./icons/illustration-2-contact-form-desktop.png)  bottom no-repeat,
+    url(./icons/frame-contact.png) left bottom no-repeat;
+  background-size: 316px 450px, 130px 105px, 236px 261.09px;
+  background-position: right bottom, 20% bottom, left bottom;
+  padding: 0 50px 280px 0;
+}
+
+.contact-form {
+  margin: 12px 0;
+}
+
+.contact-form input,
+textarea {
+  width: 100%;
+}
+
+.mailto {
+  display: none;
+}
