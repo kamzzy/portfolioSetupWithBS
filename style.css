@@ -45,3 +45,24 @@
   flex-grow: 0;
   margin: 58px 0;
 }
+.project-image-div {
+  display: flex;
+  padding: 16px;
+  height: 222px;
+  background-color: #ebf0ee;
+}
+.recent-work .badge{
+  font-family: 'Inter', serif, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #257456;
+  margin: 2px;
+  background-color: #ebf0ee;
+
+}
+.btn-div{
+  margin-bottom: 10px;
+}
