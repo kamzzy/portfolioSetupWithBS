@@ -1,59 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-  <title>Portfolio Project Built with Bootstrap</title>
-</head>
-<body data-bs-spy="scroll" data-bs-target=".nav" data-bs-offset="50">
-  <div class="container">
-    <header>
-      <ul class="navbar nav justify-content-center">
-      <!-- <li class="nav-item"><a class="logo nav-link" href="">Welcome</a>
-        </li>
-        <li class="nav-item"> <a class="bars nav-link"> <i class="fa-solid fa-bars"></i> </a>
-          </li> -->
-          <li class="nav-item"> <a class="port-nav nav-link" href="#recent-work">Portfolio</a>
-            </li>
-            <li class="nav-item"> <a class="about-nav nav-link" href="#about">About</a>
-              </li>
-              <li class="nav-item"> <a class="contact-nav nav-link" href="#contact">Contact</a>
-                </li>
-      </ul>
-  </header>
-  
-<section class="headline text-center">
-      <h2 class="black heading justify-content-center">Hey there.I'm Precious <br>
-          <span class="green"> I'm a software developer</span> 
-       </h4>
-      <h3 class="headline_text"> I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-       do not hestiate to contact me.
-      </h3>
-
-        <ul class="socials list-group list-group-horizontal justify-content-center">
-          <li class="">
-              <a href="https://twitter.com/precious_akams">
-              <img src="icons/twitter.png" alt="twitter_link">
-           </a>
-           </li>
-          <li class="">
-              <a href="https://www.linkedin.com/in/onyeagoziri-akams/">
-              <img src="icons/linkedin.png" alt="linkedin_link">
-           </a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio Project Built with Bootstrap</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".nav" data-bs-offset="50">
+    <div class="container-fluid">
+      <header>
+        <ul class="navbar nav justify-content-center">
+          <li class="nav-item">
+            <a class="logo nav-link" href="#headline">Welcome</a>
           </li>
+          <li class="nav-item">
+            <a class="bars nav-link"> <i class="fa-solid fa-bars"></i> </a>
+          </li>
+          <li class="nav-item">
+            <a class="port-nav nav-link" href="#recent-work">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="about-nav nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="contact-nav nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </header>
+
+      <section class="headline text-center" id="headline">
+        <h2 class="black heading justify-content-center">
+          Hey there.I'm Precious <br />
+          <span class="green"> I'm a software developer</span>
+        </h2>
+        <h3 class="headline_text">
+          I can help you build a product, feature or website Look through some
+          of my work and experience! If you like what you see and have a project
+          you need coded, do not hestiate to contact me.
+        </h3>
+
+        <ul
+          class="socials list-group list-group-horizontal justify-content-center"
+        >
           <li class="">
-           <a href="https://medium.com/@kamzzytech">
-               <img src="icons/medium.png" alt="medium_link">
+            <a href="https://twitter.com/precious_akams">
+              <img src="icons/twitter.png" alt="twitter_link" />
             </a>
           </li>
           <li class="">
-              <a href="https://github.com/kamzzy">
-              <img src="icons/github.png" alt="github_link">
-           </a>
-           </li>
+            <a href="https://www.linkedin.com/in/onyeagoziri-akams/">
+              <img src="icons/linkedin.png" alt="linkedin_link" />
+            </a>
+          </li>
+          <li class="">
+            <a href="https://medium.com/@kamzzytech">
+              <img src="icons/medium.png" alt="medium_link" />
+            </a>
+          </li>
+          <li class="">
+            <a href="https://github.com/kamzzy">
+              <img src="icons/github.png" alt="github_link" />
+            </a>
+          </li>
           <li class="">
               <a href="https://angel.co/u/onyeagoziri-akams">
               <img src="icons/angellist.png" alt="angellist_link">
@@ -80,10 +95,7 @@
                  <div class="btn-div text-center"><button class="btn btn-success"> See Project</button> </div>
               </div>
             </div>
-        
-        
-         
-
+      
                <div class="col">
           <div class="card">
             <div class="card "><div class="project-image-div"></div></div>
@@ -160,118 +172,175 @@
    </div>   
 </section>
 
-<section class="about" id="about">
+      <section class="about" id="about">
+        <header class="about-header text-center">
+          <h2 class="justify-content-center">About me</h2>
+          <h4>
+            I can help you build a product, feature or website Look through some
+            of my work and experience! If you like what you see and have a
+            project you need coded, don’t hestiate to contact me.
+          </h4>
+          <button class="btn btn-success" type="button">Get My Resume</button>
+        </header>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card about-card">
+              <img
+                class="card-img-top"
+                src="icons/icon-languages.png"
+                alt="languages image"
+              />
 
-<header class="about-header">
- <h4></h4>About me</h4>
- <h4> I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-     don’t hestiate to contact me.
- </h4>
-     <button class="resume-btn btn-anime" type="button">Get My Resume</button>
-</header>
-<div class="grid-container">
-<div class="flex-wrapper">
- <div class="flex-item">
-     <div class="about-me-img"> </div>
-     <div class="about-me-details">
-         <h4></h4>Languages</h4>
-         <ul>
-             <li>JavaScript</li>
-             <li>Ruby</li>
-             <li>Html</li>
-             <li>Css</li>
-         </ul>
-     </div>
-     </div>
-     <div class="flex-item">
-     <div class="about-me-img2"> </div>
-     <div class="about-me-details">
-         <h4></h4>Frameworks</h4>
-         <ul>
-             <li>Bootstrap</li>
-             <li>Ruby on rails</li>
-             <li>RSpec</li>
-           </ul>
-           <ul class="cap">
-             <li>Capybara</li>
-             <li>Selenium</li>
-         </ul>
-     </div>
-     </div>
-     <div class="flex-item">
-     <div class="about-me-img3"> </div>
-     <div class="about-me-details">
-         <h4></h4>Skills</h4>
-         <ul>
-             <li>Codekit</li>
-             <li>Github</li>
-             <li>Codepen</li>
-             <li>Gitlab</li>
-           </ul>
-           <ul>
-             <li>Terminal</li>
-         </ul>
-     </div>
-     </div>
-     </div>
-     </div>
-   </section>
+              <div class="about-me-details card-body">
+                <h2 class="text-center">Languages</h2>
+                <ul
+                  class="list-group list-group-horizontal justify-content-center"
+                >
+                  <li class="badge">JavaScript</li>
+                  <li class="badge">Ruby</li>
+                  <li class="badge">Html</li>
+                  <li class="badge">Css</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card about-card">
+              <img
+                class="card-img-top"
+                src="icons/icon-frameworks.png"
+                alt="frameworks image"
+              />
+              <div class="about-me-details card-body">
+                <h2 class="text-center">Frameworks</h2>
+                <ul
+                  class="list-group list-group-horizontal justify-content-center"
+                >
+                  <li class="badge">Bootstrap</li>
+                  <li class="badge">Ruby on rails</li>
+                  <li class="badge">RSpec</li>
+                </ul>
+                <ul
+                  class="list-group list-group-horizontal justify-content-center"
+                >
+                  <li class="badge">Capybara</li>
+                  <li class="badge">Selenium</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card about-card">
+              <img
+                class="card-img-top"
+                src="icons/icon-skills.png"
+                alt="Skills image"
+              />
 
-    <section class="contact-section" id="contact">
-        
-            <div class="flex-wrapper">
-       <header class="contact-header">
-           <h4></h4>
-               I'm always interested in hearing about new projects,
-                so if you'd like to chat please get in touch.
-           </h4>
-       </header>
-       <div class="contact-form">
-           <form action="https://formspree.io/f/mvolbpag" method="post">
-              <label  for="fullname">Fullname:</label>
-               <input type="text" name="fullname" id="fullname" maxlength="30" placeholder="Full name" required>
-               <input type="email" name="email" id="email" placeholder="Email address" required>
-               <textarea name="message" id="textarea" maxlength="500" placeholder="Enter text here" required></textarea>
-               <button class="contact-btn btn-anime" type="submit">Get in touch</button>
-           </form>
-       </div>
-       </div>
-   </section>
-   <hr id="hr">
-   <ul class="socials social2">
-   
-       <li>
-           <a href="https://twitter.com/precious_akams">
-           <img src="icons/twitter.png" alt="twitter_link">
-        </a>
+              <div class="about-me-details card-body">
+                <h2 class="text-center">Skills</h2>
+                <ul
+                  class="list-group list-group-horizontal justify-content-center"
+                >
+                  <li class="badge">Codekit</li>
+                  <li class="badge">Github</li>
+                  <li class="badge">Codepen</li>
+                  <li class="badge">Gitlab</li>
+                </ul>
+                <ul
+                  class="list-group list-group-horizontal justify-content-center"
+                >
+                  <li class="badge">Terminal</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="row">
+          <div class="col-md-6">
+            <header class="contact-header">
+              <h2>
+                I'm always interested in hearing about new projects, so if you'd
+                like to chat please get in touch.
+              </h2>
+            </header>
+          </div>
+          <div class="contact-form col-md-6">
+            <form action="https://formspree.io/f/mvolbpag" method="post">
+              <label for="fullname">Fullname:</label>
+              <input
+                type="text"
+                name="fullname"
+                id="fullname"
+                maxlength="30"
+                placeholder="Full name"
+                required
+              />
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email address"
+                required
+              />
+              <label for="fullname">Message:</label>
+              <textarea name="message" id="textarea" maxlength="500" required>
+Enter text here</textarea
+              >
+              <button class="btn btn-success" type="submit">
+                Get in touch
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <hr id="hr" />
+      <ul
+        class="socials list-group list-group-horizontal justify-content-center"
+      >
+        <li>
+          <a href="https://twitter.com/precious_akams">
+            <img src="icons/twitter.png" alt="twitter_link" />
+          </a>
+
         </li>
-       <li>
-           <a href="https://www.linkedin.com/in/onyeagoziri-akams/">
-           <img src="icons/linkedin.png" alt="linkedin_link">
-        </a>
-       </li>
-       <li>
-        <a href="https://medium.com/@kamzzytech">
-            <img src="icons/medium.png" alt="medium_link">
-         </a>
-       </li>
-       <li>
-           <a href="https://github.com/kamzzy">
-           <img src="icons/github.png" alt="github_link">
-        </a>
+        <li>
+          <a href="https://www.linkedin.com/in/onyeagoziri-akams/">
+            <img src="icons/linkedin.png" alt="linkedin_link" />
+          </a>
         </li>
-       <li>
-           <a href="https://angel.co/u/onyeagoziri-akams">
-           <img src="icons/angellist.png" alt="angellist_link">
-        </a>
-        </li> 
-    </ul>
+        <li>
+          <a href="https://medium.com/@kamzzytech">
+            <img src="icons/medium.png" alt="medium_link" />
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/kamzzy">
+            <img src="icons/github.png" alt="github_link" />
+          </a>
+        </li>
+        <li>
+          <a href="https://angel.co/u/onyeagoziri-akams">
+            <img src="icons/angellist.png" alt="angellist_link" />
+          </a>
+        </li>
+      </ul>
 
-   <div class="mailto">
-   <a id="mailto" href="mailto:preciousakams@yahoo.com">preciousakams@yahoo.com</a>
-</div>
-  </div>
-  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
+      <div class="mailto text-center">
+        <a id="mailto" href="mailto:preciousakams@yahoo.com"
+          >preciousakams@yahoo.com</a
+        >
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
