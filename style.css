@@ -60,7 +60,6 @@
 }
 
 .project-image-div {
-  display: flex;
   padding: 16px;
   height: 222px;
   background-color: #ebf0ee;
@@ -69,6 +68,7 @@
 .recent-work {
   margin: 10%;
 }
+
 .recent-work .badge {
   font-family: 'Inter', serif, sans-serif;
   font-style: normal;
@@ -79,86 +79,90 @@
   color: #257456;
   margin: 2px;
   background-color: #ebf0ee;
-  }
+}
 
-  .about-header {
-    background:
-      url(./icons/frame-desktop.png) top right no-repeat,
-      url(./icons/illustration-about-me-2-desktop.png) bottom left no-repeat;
-  }
+.about-header {
+  background:
+    url(./icons/frame-desktop.png) top right no-repeat,
+    url(./icons/illustration-about-me-2-desktop.png) bottom left no-repeat;
+}
 
-  .about-header h4 {
-    padding: 5% 29%;
-    font-family: 'Inter', serif, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-    text-align: center;
-    color: #42526e;
-  }
+.about-header h4 {
+  padding: 5% 29%;
+  font-family: 'Inter', serif, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+}
 
-  .btn {
-    border: 0;
-    color: #fff;
-  }
+.btn {
+  border: 0;
+  color: #fff;
+}
 
-  .btn:hover {
-    border: solid 2px #277f5a;
-  }
+.btn:hover {
+  border: solid 2px #277f5a;
+}
 
-  .btn:active {
-    transform: translateY(4px);
-  }
+.btn:active {
+  transform: translateY(4px);
+}
 
-  .about-card {
-    background-color: #ebf0ee;
-    height: 360px;
-    margin: 30% 0;
-    border: 1px solid #d0d9d4;
-    border-radius: 8px;
-  }
+.about-card {
+  background-color: #ebf0ee;
+  height: 360px;
+  margin: 30% 0;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+}
 
-  .card-img-top {
-    height: 170px;
-  }
+.card-img-top {
+  height: 170px;
+}
 
-  .about-card .list-group li {
-    font-family: 'Inter', serif, sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    color: #257456;
-    margin: 2px;
-    background-color: #fff;
-  }
+.about-card .list-group li {
+  font-family: 'Inter', serif, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #257456;
+  margin: 2px;
+  background-color: #fff;
+}
 
-  .btn-div {
-    margin-bottom: 10px;
-  }
+.row {
+  margin: 2% 0;
+}
 
-  .contact-section {
-    background:
-      url(./icons/frame2.png) no-repeat,
-      url(./icons/illustration-2-contact-form-desktop.png)  bottom no-repeat,
-      url(./icons/frame-contact.png) left bottom no-repeat;
-    background-size: 316px 450px, 130px 105px, 236px 261.09px;
-    background-position: right bottom, 20% bottom, left bottom;
-    padding: 0 50px 280px 0;
-  }
+.btn-div {
+  margin-bottom: 10px;
+}
 
-  .contact-form {
-    margin: 12px 0;
-  }
+.contact-section {
+  background:
+    url(./icons/frame2.png) no-repeat,
+    url(./icons/illustration-2-contact-form-desktop.png)  bottom no-repeat,
+    url(./icons/frame-contact.png) left bottom no-repeat;
+  background-size: 316px 450px, 130px 105px, 236px 261.09px;
+  background-position: right bottom, 20% bottom, left bottom;
+  padding: 0 50px 280px 0;
+}
 
-  .contact-form input,
-  textarea {
-    width: 100%;
-  }
+.contact-form {
+  margin: 12px 0;
+}
 
-  .mailto {
-    display: none;
-  }
+.contact-form input,
+textarea {
+  width: 100%;
+}
+
+.mailto {
+  display: none;
+}
 }
